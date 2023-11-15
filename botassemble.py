@@ -3,8 +3,7 @@ import subprocess
 from telegram import Update
 from telegram.ext import Updater, CommandHandler, CallbackContext, MessageHandler, Filters
 import requests
-# Specify the directory where the gist files are located
-gist_files_directory = "C:\\Users\\91934\\Desktop\\test\\gist_files"  # Replace with the actual directory path
+gist_files_directory = "C:\\Users\\91934\\Desktop\\gist_files"  
 
 # Create a dictionary to store user-specific execution data
 user_data = {}
